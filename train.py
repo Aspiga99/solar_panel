@@ -17,6 +17,7 @@ print(raw_image[2].shape, mask_image[2].shape)
 
 import tensorflow as tf
 print("Tensorflow version " + tf.__version__)
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 AUTO = tf.data.experimental.AUTOTUNE
 from tensorflow.keras import  mixed_precision
 tf.compat.v1.enable_eager_execution()
