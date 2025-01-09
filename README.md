@@ -29,3 +29,9 @@ This Repo contains reproduce code only that used to trained and submission for c
 
 <br>
 there few Feature engineering and Data Augumentation that help my solution.
+
+
+
+## Install
+
+pip install -r requirements.txt

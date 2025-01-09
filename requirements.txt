@@ -1,7 +1,7 @@
-numpy
+tensorflow==2.18
+numpy>=2.0
 pandas
 tqdm
 tifffile
-tensorflow
 seaborn
-sklearn
+scikit-learn
