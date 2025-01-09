@@ -5,7 +5,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 import matplotlib.pyplot as plt
-global_path = "/Users/Andrea/projects/SolarDetection-solafune/SolarDetection-solafune/"
+global_path = "/enelx/solar_panel"
 raw_image = []
 mask_image = []
 for i in range( 2056, 2066 ):
