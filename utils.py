@@ -214,6 +214,7 @@ def features_extraction( data ):
 import matplotlib.pyplot as plt
 import seaborn as sns
 import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
 from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
 import gc, glob, os
